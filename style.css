@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+video {
+    width: 100%; 
+    height: 100%;
+    
+   position: fixed; 
+object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+   
+
+
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+body h1  {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    
+    font-family: cyberpunk;
+   
+   
+}
+body p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    
+    font-weight: 100;
+    letter-spacing: 1px;
+
+    color: #fff;
+   
+}
+
+body h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+footer{
+    background-attachment: fixed;
+   
+    
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+
+   
+}
+
+
+ div {
+    width: 600px;
+    height: auto;
+    background-color: #1a171775;
+    margin: auto;
+    border-radius: 02%;
+   padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+   letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ebc90b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 1.24), 0 17px 50px 0 rgba(0, 0, 0, 2.19);
+
+
+   
+}
+/* Estilos para os botões */
+button {
+    padding: 10px 23px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 05%;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.425), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #1b1a1a98;
+}
+
+/* Estilos para a área de conteúdo */
+#conteudo {
+    margin-top: 20px;
+    padding: 0%;
+    font-size: 15px;
+    border: 2px solid #000000;
+    align-items: center;
+   
+    
+}
+ button:hover{
+    background-color: #0000009c;
+    color: #ffee00c4;
+    border: 2px solid rgb(255, 238, 0);
+   
+    transition: 0.2s;
+    box-shadow: 0px 10px 16px 0 rgba(255, 238, 0, 2.24), 0 20px 50px 10px rgba(0, 0, 0, 2.19);
+
+ }
+ img {
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1.24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+ }
+
+ #imagens1{
+    width: 100%;
+    height: 90%;
+    
+ margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+    border-radius: 1%;
+    align-items: center;
+
+ }
