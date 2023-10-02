@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: scroll;
+    cursor: url(Cursor/cursor.cur),auto;
+    
 }
 
 video {
@@ -39,9 +41,9 @@ body h1  {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
-    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
     font-family: cyberpunk;
-   
+    cursor: url(Cursor/cursor.cur),auto;
    
 }
 body p{
@@ -52,7 +54,7 @@ body p{
     
     font-weight: 100;
     letter-spacing: 1px;
-
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
     color: #fff;
    
 }
@@ -68,6 +70,8 @@ body h2{
     text-transform: uppercase;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
+    
     
 }
 
@@ -77,7 +81,7 @@ footer{
     
     text-align: center;
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 100;
 
    
@@ -85,20 +89,20 @@ footer{
 
 
  div {
-    width: 600px;
+    width: 1000px;
     height: auto;
-    background-color: #1a171775;
+    background-color: #00000050;
     margin: auto;
-    border-radius: 02%;
+   
    padding: 10px;
     text-align: center;
     font-size: 10px;
     font-weight: 100;
    letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ebc90b;
+    color: #f3ef10f8;
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 1.24), 0 17px 50px 0 rgba(0, 0, 0, 2.19);
-
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
 
    
 }
@@ -106,11 +110,17 @@ footer{
 button {
     padding: 10px 23px;
     margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+   color: #ccc4c4;
     font-size: 16px;
     cursor: pointer;
     border-radius: 05%;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.425), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: #1b1a1a98;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0 ), 0 17px 50px 0 rgb(0, 0, 0);
+    background-color: #00000013;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
+    cursor: url(Cursor/NeonLinkSelect07-Yellow.cur),auto;
 }
 
 /* Estilos para a área de conteúdo */
@@ -118,22 +128,25 @@ button {
     margin-top: 20px;
     padding: 0%;
     font-size: 15px;
-    border: 2px solid #000000;
+   
     align-items: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
    
     
 }
  button:hover{
-    background-color: #0000009c;
-    color: #ffee00c4;
-    border: 2px solid rgb(255, 238, 0);
-   
-    transition: 0.2s;
-    box-shadow: 0px 10px 16px 0 rgba(255, 238, 0, 2.24), 0 20px 50px 10px rgba(0, 0, 0, 2.19);
-
+    background-color: #00000000;
+    color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    
+   padding: 0,8%;
+    transition: 0.4s;
+    box-shadow: 0px 10px 16px 0 rgba(43, 40, 40, 0), 0 20px 50px 10px rgba(66, 65, 65, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.5);
  }
  img {
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1.24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+    border: 3px solid black;
  }
 
  #imagens1{
@@ -143,8 +156,129 @@ button {
  margin-right: 10%;
     margin-bottom: 10px;
     margin-top: 10px;
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
-    border-radius: 1%;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+   
     align-items: center;
 
  }
+
+ #texto{
+    color: #ecdd0c;
+    margin-top: 20px;
+    padding: 0%;
+    font-size: 15px;
+   text-size-adjust: 20px;
+    align-items: center;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0, 2.5);
+
+   text-transform: uppercase;
+letter-spacing: 1px;
+
+
+ }
+
+ #e{
+    color: #00000013;
+ }
+
+ #imagem{
+
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+    border: 3px solid black;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0, 2.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-size-adjust: 20px;
+    align-items: center;
+   
+ }
+ #botao0{
+    margin-right: 50%;
+ }
+
+ #paginainicial{
+
+    width: 1022px;
+    height: 100%;
+    padding:0%;
+   
+    border-color: #00000046;
+    border-style: outset;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1.24), 0 20px 50px 0 rgba(0, 0, 0, 2.19);
+
+ }
+
+ #resultados{
+    box-shadow: #070707;
+    background-color: #070707ad;
+    
+    padding: 0%;
+   
+ }
+
+ #caixaPesquisa{
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1.24), 0 10px 18px 0 rgba(0, 0, 0, 1.19);
+    background-color: #070707;
+    
+    padding: 0%;
+    transition: 0,5s;
+    
+ }
+ 
+ #caixaPesquisa:hover{
+    background-color: #00000067;
+    padding: 1%;
+    transition: 0.5s;
+    
+    
+    
+
+ }
+
+ 
+#vidiu{
+width: 10px;
+    height: 10px;
+   margin-left: 1450px;
+   margin-top: 300px;
+
+
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1.24), 0 10px 18px 0 rgba(0, 0, 0, 1.19);
+   
+
+position: fixed; 
+
+    top: 0;
+    left: 0;
+    
+
+
+    
+}
+
+a{
+    cursor: url(Cursor/NeonLinkSelect07-Yellow.cur),auto;
+}
+
+audio{
+   
+    
+
+    display: block;
+
+    align-items: center;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(0, 0, 0, 1.19);
+    border: 3px solid black;
+    
+ 
+
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0, 2.5);
+
+}
